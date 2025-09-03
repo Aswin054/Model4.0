@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Flask==2.3.3
 Flask-CORS==4.0.0
 opencv-python==4.8.0.74
@@ -6,3 +7,26 @@ pytesseract==0.3.10
 easyocr==1.7.0
 requests==2.31.0
 Pillow==9.5.0
+=======
+# Core Python packages
+setuptools>=68.0.0
+wheel>=0.41.2
+pip>=25.0.0
+
+# Web framework
+Flask
+Flask-CORS
+
+# Computer vision / OCR
+numpy
+opencv-python
+pytesseract
+easyocr
+Pillow
+
+# HTTP requests
+requests
+
+# Production WSGI server
+gunicorn
+>>>>>>> 6d5ce72911af3ca019f52cff3d442bbc85b2df16
