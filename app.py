@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from flask import Flask, render_template, request, jsonify, send_file, abort, Response
 from flask_cors import CORS
 import cv2
@@ -1594,7 +1594,7 @@ if __name__ == '__main__':
     logger.info(f"📷 Live Camera Feed: Enabled")
     
     app.run(host='0.0.0.0', port=5000, debug=False, threaded=True)
-=======
+
 from flask import Flask, render_template, request, jsonify, send_file, abort, Response
 from flask_cors import CORS
 import cv2
@@ -3190,4 +3190,4 @@ if __name__ == '__main__':
     logger.info(f"📷 Live Camera Feed: Enabled")
     
     app.run(host='0.0.0.0', port=5000, debug=False, threaded=True)
->>>>>>> 6d5ce72911af3ca019f52cff3d442bbc85b2df16
+
