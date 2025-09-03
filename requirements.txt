@@ -1,12 +1,21 @@
+# Core Python packages
 setuptools>=68.0.0
 wheel>=0.41.2
-numpy==1.26.4
-opencv-python==4.8.0.74
-Flask==2.3.3
-Flask-CORS==4.0.0
-pytesseract==0.3.10
-easyocr==1.7.2
-requests==2.31.0
-Pillow==9.5.0
-gunicorn>=21.2.0
+pip>=25.0.0
 
+# Web framework
+Flask
+Flask-CORS
+
+# Computer vision / OCR
+numpy
+opencv-python
+pytesseract
+easyocr
+Pillow
+
+# HTTP requests
+requests
+
+# Production WSGI server
+gunicorn
